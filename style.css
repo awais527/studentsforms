@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{background-size:85%;font-family:Cambria Math;font-size:18px;color:green;}
+</style>
+<title>Forms</title>
+</head>
+<body>
+<body background="file:///C:/Users/Dell%205530/Downloads/Documents/Municipal%20committee%20FSD%20CDR%20Vector%20Logo.jpg">
+<h1><center><i/><u/>Registration Form</h1>
+<h2>Faisalabad Board Registration Form 2024</h2>
+<form>
+<fieldset>
+<legend>
+<h2>Submit Your Information</h2>
+</legend>
+<div>
+Name:  <input type="text">
+</div>
+<br>
+<div>
+Father Name:  <input type="text">
+</div>
+<br>
+<div>
+Mother Name:  <input type="text">
+</div>
+<br>
+<div>
+Address:  <input type="text">
+</div>
+<br>
+<div>
+Roll no:  <input type="text">
+</div>
+<br>
+<div>
+Email:  <input type="email"name="my email">
+</div>
+<br>
+<div>
+Gender:  
+Male<input type="radio"name="my gender">
+Female<input type="radio"name="my gender">
+Other<input type="radio"name="my gender">
+</div>
+<br>
+<div>
+Date of Birth:  <input type="date">
+</div>
+<br>
+<div>
+Blood Group:  <select input type="drop-down">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+</div>
+<br>
+<div>Religion:   
+      Islam<input type="checkbox"name="religion">
+Christian<input type="checkbox"name="religion">
+</div>
+<br/>
+<div>
+About Yourself:
+<textarea name="about"></textarea>
+</div>
+<br>
+<div>
+<input type="submit"name="submit">
+</div>
+<br>
+<button type="button" onclick="alert('Hello Mubashar Jan!')">Click Me!</button>
+</fieldset>
+</form>
+</body>
+</html>
